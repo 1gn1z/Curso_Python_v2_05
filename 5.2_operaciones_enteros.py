@@ -21,6 +21,7 @@ print('Puntaje después de la adición de 50 puntos: %i' %puntaje)
 
 # Se pueden hacer: +,-,*,/,% (resudio) y ** (exponenciación)
 
-x = x + 10 # forma normal
-
+#x = x + 10  forma normal
+print('Valor de x antes de la adición: %i' %x)
 x += 10    # forma mas chida :3
+print('Valor de x despues de la adición: %i' %x)
