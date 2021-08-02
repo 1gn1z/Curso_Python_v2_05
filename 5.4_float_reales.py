@@ -15,3 +15,8 @@ El valor de la variable precio es: 29.950000
 
 print(pi)
 print(precio)
+
+print()
+
+print('El tipo de dato para la variable pi es:', type(pi))
+print('El tipo de dato para la variable precio es:', type(precio))
