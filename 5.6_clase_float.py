@@ -40,4 +40,7 @@ print()
 print('Creación de un número real (punto flotante) a aprtir de una cadena de caracteres:')
 
 precio_computador = float(input('Digite el precio del computador: '))
+print(type(precio_computador))
 
+print('El tipo de datp de la variable precio_computador es %s ' %type(precio_computador))
+print('El computador cuesta: $%.2f' %precio_computador)
