@@ -41,3 +41,22 @@ print(a and not b)
 print()
 print(b or a)
 print(b or not a)
+
+print()
+print()
+
+if a and not b:
+    print('Sí hay awa')
+else:
+    print('No hay awa')
+
+print()
+
+if a or b:
+    print('Sí hay awa')
+else:
+    print('No hay awa')
+
+# con AND, AMBAS deben cumplirse para que de TRUE, de lo contrario dará FALSE.
+
+#con OR, SOLO UNA debe cumplirsr para que de TRUE, solo si ambas no se cumplen dará FALSE.
