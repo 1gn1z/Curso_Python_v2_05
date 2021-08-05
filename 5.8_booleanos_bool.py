@@ -35,3 +35,9 @@ print(a and b)
 
 print(a and not b)
 # Aqui obtenemos true por que not b = true
+
+# OR
+# or es suma lógica (ambos deben ser false para que arroje false)
+print()
+print(b or a)
+print(b or not a)
