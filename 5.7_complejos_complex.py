@@ -14,3 +14,8 @@ print('Operaciones aritméticas sobre números complejos:')
 
 suma = 2 - 3j + (1 +5j)
 print("Suma: ",suma)
+print()
+
+resta = 2 - 3j - complex(1, 5) # usamos la funcion complex en lugar de la parte final de la variable suma.
+
+print('Resta:', resta)
