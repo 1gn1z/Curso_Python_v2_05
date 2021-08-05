@@ -19,3 +19,8 @@ print()
 resta = 2 - 3j - complex(1, 5) # usamos la funcion complex en lugar de la parte final de la variable suma.
 
 print('Resta:', resta)
+
+print()
+
+multiplicacion = 2 - 3j * complex(1, 5)
+print("Multiplicación:", multiplicacion)
