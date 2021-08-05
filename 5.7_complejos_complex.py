@@ -24,3 +24,8 @@ print()
 
 multiplicacion = 2 - 3j * complex(1, 5)
 print("Multiplicación:", multiplicacion)
+
+print()
+
+division = 2 - 3j / complex(1, 5)
+print("División:", division)
