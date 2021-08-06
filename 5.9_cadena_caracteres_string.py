@@ -3,11 +3,14 @@
 nombre = "Kebor Mastah"
 email = "kebor327@gmail.com"
 
-varias_lineas = ''' Con triples comillas
-ya sean dobles o sencillas, podemos usar varias
-lineas, como en este ejemplo :3
+direccion = ''' Calle Alfonso Herrera # 79
+Colonia San Rafael Chamapa
+Naucalpan de Juaréz, Estado de México
 '''
 
 print(nombre)
 print(email)
-print(varias_lineas)
+print(direccion)
+
+mensaje = "Bivenvenido(a), " + nombre + " Correo: " + email + " Direccion: " + direccion 
+print(mensaje)

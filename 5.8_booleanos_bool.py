@@ -86,3 +86,13 @@ print()
 x = bool(0)
 print(type(x))
 print(x)
+
+print()
+
+y = bool(123 < 124)
+print(y)
+
+print()
+
+z = bool(123 > 124)
+print(z)
