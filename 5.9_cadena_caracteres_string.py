@@ -15,5 +15,11 @@ print(direccion)
 mensaje = "Bivenvenido(a), " + nombre + " Correo: " + email + " Direccion: " + direccion 
 print(mensaje)
 
+
+#Interpolación:
 mensaje = f"Bivenvenido(a), {nombre}. Correo: {email}. Dirección: {direccion}."
+print(mensaje)
+
+# format() de la clase str:
+mensaje = "Bienvenido(a), {}. Correo: {}. Dirección: {}.".format(nombre, email, direccion)
 print(mensaje)
