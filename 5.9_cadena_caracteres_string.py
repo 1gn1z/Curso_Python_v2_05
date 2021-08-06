@@ -23,3 +23,7 @@ print(mensaje)
 # format() de la clase str:
 mensaje = "Bienvenido(a), {}. Correo: {}. Dirección: {}.".format(nombre, email, direccion)
 print(mensaje)
+
+# formato con %s
+mensaje = "Bienvenido(a), %s. Correo: %s. Dirección: %s." %(nombre, email, direccion)
+print(mensaje)
