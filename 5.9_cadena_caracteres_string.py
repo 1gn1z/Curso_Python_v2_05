@@ -14,3 +14,6 @@ print(direccion)
 
 mensaje = "Bivenvenido(a), " + nombre + " Correo: " + email + " Direccion: " + direccion 
 print(mensaje)
+
+mensaje = f"Bivenvenido(a), {nombre}. Correo: {email}. Dirección: {direccion}."
+print(mensaje)
