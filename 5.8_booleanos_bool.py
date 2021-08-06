@@ -69,3 +69,20 @@ else:
     print('No hay awa')
 
 # Refactorización para renombrar variables    
+
+print('Uso de la clase bool():')
+
+x = bool(1)
+print(type(x))
+print(x)
+print()
+
+x = bool(123)
+print(type(x))
+print(x)
+
+print()
+
+x = bool(0)
+print(type(x))
+print(x)
