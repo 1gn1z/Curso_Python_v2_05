@@ -31,9 +31,13 @@ print(mensaje)
 # Inmutabilidad de cadenas de caracteres (str):
 
 lenguaje = "Python"
+print(lenguaje)
 print(lenguaje[0])
 print(lenguaje[1])
 print(lenguaje[2])
 print(lenguaje[3])
 print(lenguaje[4])
 print(lenguaje[5])
+
+lenguaje = "p" + lenguaje[1:]
+print(lenguaje)
