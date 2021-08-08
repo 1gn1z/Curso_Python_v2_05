@@ -27,3 +27,13 @@ print(mensaje)
 # formato con %s
 mensaje = "Bienvenido(a), %s. Correo: %s. Dirección: %s." %(nombre, email, direccion)
 print(mensaje)
+
+# Inmutabilidad de cadenas de caracteres (str):
+
+lenguaje = "Python"
+print(lenguaje[0])
+print(lenguaje[1])
+print(lenguaje[2])
+print(lenguaje[3])
+print(lenguaje[4])
+print(lenguaje[5])
