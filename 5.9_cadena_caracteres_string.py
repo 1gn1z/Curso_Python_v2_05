@@ -39,5 +39,16 @@ print(lenguaje[3])
 print(lenguaje[4])
 print(lenguaje[5])
 
+print()
+
+# lenguaje[0] = "p" #TypeError
+
 lenguaje = "p" + lenguaje[1:]
 print(lenguaje)
+
+# Tipos de datos inmutables, se dice que son estáticos.
+
+# Averiguar la posición de memoria de una variable (o de una cadena en este caso)
+
+print(id("python") == id("python"))
+
