@@ -52,3 +52,5 @@ print(lenguaje)
 
 print(id("python") == id("python"))
 
+lenguaje = "Python".lower()
+print(lenguaje)
