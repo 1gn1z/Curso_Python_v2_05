@@ -17,3 +17,12 @@ print()
 valor1, valor2 = punto
 print('El valor en x es igual a:', valor1)
 print('El valor en y es igual a:', valor2)
+
+print()
+
+# Acceso con índices negativos (de derecha a izquierda)
+
+ultimo_elemento = punto[-1]
+penultimo_elemento = punto[-2]
+print('El valor en x es igual a:', ultimo_elemento)
+print('El valor en y es igual a:', penultimo_elemento)
