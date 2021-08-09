@@ -11,3 +11,9 @@ x = punto[0]
 y = punto[1]
 print('El valor en x es igual a:', x)
 print('El valor en y es igual a:', y)
+print()
+
+# Desempaquetamiento:
+valor1, valor2 = punto
+print('El valor en x es igual a:', valor1)
+print('El valor en y es igual a:', valor2)
