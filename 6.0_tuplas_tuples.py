@@ -31,4 +31,11 @@ print()
 
 # Concepto de inmutabilidad en una tupla:
 
-punto[0] = 3
+# punto[0] = 3 # Genera TypeError
+
+# Al reasignar una variable, el valor anterior se pierde.
+punto = (3, 7)
+x = punto[0]
+y = punto[1]
+print('El valor en x es igual a:', x)
+print('El valor en y es igual a:', y)
