@@ -63,3 +63,9 @@ print()
 for i in range(len(numeros_primos)):
     print(f'El valor del elemento en el índice {i} es igual a {numeros_primos[i]}.')
 
+print()
+
+# Iteración con un ciclo FOR MEJORADO:
+
+for n in numeros_primos:
+    print('Valor:' ,n)
