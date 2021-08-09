@@ -64,5 +64,8 @@ print(len(lista_valores))
 print(lista_valores)
 
 # Método str.find()
-indice = valores.find('2')
-print('El índice del elemento "2" es igual a', indice)
+indice = valores.find('1')
+print('El índice del elemento "1" es igual a', indice)
+
+indice = valores.find('8')
+print('El índice del elemento "8" es igual a', indice)
