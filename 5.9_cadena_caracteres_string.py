@@ -54,3 +54,12 @@ print(id("python") == id("python"))
 
 lenguaje = "Python".lower()
 print(lenguaje)
+
+print()
+
+# Uso del método str.split()
+valores = "2,3,5,7,11"
+lista_valores = valores.split(',')
+print(len(lista_valores))
+print(lista_valores)
+
