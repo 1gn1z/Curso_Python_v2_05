@@ -48,9 +48,18 @@ numeros_primos = (2, 3, 5, 7, 11, 13, 17, 19)
 
 print('Cantidad de elementos de la tupla numeros_primos', len(numeros_primos))
 
-# Iteración con un ciclo While:
+# Iteración con un ciclo WHILE:
+
 i = 0   # esta variable será el índice que recorrerá todos  los elementos de la tupla
 while i < len(numeros_primos):  # menor que porque si ponemos menor o igual, no nos daría el último elemento  
     print(f'El valor del elemento en el índice {i} es igual a {numeros_primos[i]}.')
-    i += 1  # incrementamos en 1 el valor de i para que avance en los índices, y para NO tener un ciclo infinito.
+    i += 1  # incrementamos en 1 el valor de i para que avance en los índices, y para NO tener un ciclo infinito, porque si no aumentamos el valor de i la condicion del while siempre se cumpliría, en este caso al sumar 8 la condicion se cumple (ya no es menor que len(numeros_primos) sino que es igual, por ende temrmina el ciclo).
+
+print()
+
+
+# Iteración con un ciclo FOR:
+
+for i in range(len(numeros_primos)):
+    print(f'El valor del elemento en el índice {i} es igual a {numeros_primos[i]}.')
 
