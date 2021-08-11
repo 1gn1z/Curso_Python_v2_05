@@ -69,3 +69,11 @@ print()
 
 for n in numeros_primos:
     print('Valor:' ,n)
+
+print()
+
+# Iteración de una tupla por medio de la función enumate():
+print('Iteración de la tulpa numeros_primos con la función enumarate')
+
+for i, v in enumerate(numeros_primos):
+    print(f'El valor del elemento índice {i} es igual al {v}.')
