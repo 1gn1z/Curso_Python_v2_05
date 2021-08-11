@@ -89,3 +89,8 @@ print('Cantidad de elementos de la tupla:', len(numeros))
 print('Contenido:', numeros)
 
 print()
+
+numeros = 1,
+print('Tipo de dato de la variable números:', type(numeros))
+print('Cantidad de elementos de la tupla:', len(numeros))
+print('Contenido:', numeros)
