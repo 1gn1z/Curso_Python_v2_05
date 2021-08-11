@@ -77,3 +77,15 @@ print('Iteración de la tulpa numeros_primos con la función enumarate')
 
 for i, v in enumerate(numeros_primos):
     print(f'El valor del elemento índice {i} es igual al {v}.')
+
+print()
+
+# Mecanismos alternativos para crear tuplas:
+# Modo A:
+
+numeros = 1, 2, 3
+print('Tipo de dato de la variable números:', type(numeros))
+print('Cantidad de elementos de la tupla:', len(numeros))
+print('Contenido:', numeros)
+
+print()
