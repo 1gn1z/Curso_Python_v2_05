@@ -104,3 +104,11 @@ nums = tuple([1, 2, 3])
 print('Tipo de dato de la variable números:', type(nums))
 print('Cantidad de elementos de la tupla:', len(nums))
 print('Contenido:', nums)
+
+print()
+
+# Operaciones básicas que provee la clase 'tuple':
+
+colores = ('Negro', 'Blanco', 'Negro', 'Azul', 'Negro', 'Rojo', 'Verde')
+print(colores.count('Negro'))
+
