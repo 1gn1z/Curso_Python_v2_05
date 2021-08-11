@@ -94,3 +94,13 @@ numeros = 1,
 print('Tipo de dato de la variable números:', type(numeros))
 print('Cantidad de elementos de la tupla:', len(numeros))
 print('Contenido:', numeros)
+print()
+print()
+
+# Modo B: uso de la clase tuple:
+
+
+nums = tuple([1, 2, 3])
+print('Tipo de dato de la variable números:', type(nums))
+print('Cantidad de elementos de la tupla:', len(nums))
+print('Contenido:', nums)
