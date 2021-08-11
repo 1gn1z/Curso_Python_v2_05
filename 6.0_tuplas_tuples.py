@@ -111,4 +111,7 @@ print()
 
 colores = ('Negro', 'Blanco', 'Negro', 'Azul', 'Negro', 'Rojo', 'Verde')
 print(colores.count('Negro'))
+print(colores.count('negro'))
 
+print(colores.index('Rojo'))
+print(colores.index('Negro'))
