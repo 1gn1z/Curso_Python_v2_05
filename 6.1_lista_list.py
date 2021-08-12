@@ -74,11 +74,17 @@ while i >= 0:
 print()
 
 # Ciclo FOR:
-print('Iteración de una lista con un ciclo for:')
+print('Iteración con índices de una lista con un ciclo for:')
 
 for i in range(0, len(numeros)):
     print(f'Índice: {i} - Valor: {numeros[i]}')
 
+print()
+
+print('Iteración con índices de una lista con un ciclo for (del último elemento hacia el primero:')
+
+for i in range(0, len(numeros), -1): # -1 es para indicar decremento, va del último elemento al primero
+    print(f'Índice: {i} - Valor: {numeros[i]}')
 
 
 
