@@ -19,3 +19,11 @@ print()
 
 seccion = numeros[1:4]
 print(seccion)
+
+
+# Acceso con desempaquetamiento:
+
+print('Acceso a datos de una lista con desempaquetamiento')
+
+cuatro, seis, ocho = seccion
+print(cuatro, seis, ocho)
