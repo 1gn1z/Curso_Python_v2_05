@@ -38,8 +38,8 @@ print()
 
 # Acceso a un índice que no existe:
 
-# valor = numeros[8]     ValueError 
-# valor = numeros[-6]    ValueError 
+# valor = numeros[8]     IndexError 
+# valor = numeros[-6]    IndexError 
 
 # Izquierda a Derecha: 0 hasta n-1 (n es el número total de la lista (# de elementos))
 # Derecja a izquierda: -1 hasta -n (si la lista tiene 5 elementos el primer elemento seria -5)
@@ -50,3 +50,15 @@ print('El último elemento (índice -1) de la lista es:', numeros[-1])
 numeros[-1] = 12
 print('El último elemento (índice -1) de la lista es:', numeros[-1])
 
+print()
+
+# Iteración de listas:
+
+# Ciclo WHILE:
+print('Iteración de lista con ciclo while:')
+
+i = 0
+while i < len(numeros):
+    print(f'Índice: {i} - Valor: {numeros[i]}', numeros[i])
+    i += 1
+print(i)
