@@ -27,3 +27,9 @@ print('Acceso a datos de una lista con desempaquetamiento')
 
 cuatro, seis, ocho = seccion
 print(cuatro, seis, ocho)
+
+# 2. Modificación de una lista:
+
+print('2. Modificación de elementos de una lista')
+numeros[0] = 1
+print('El primer elemento (índice 0) de la lista es:', numeros[0])
