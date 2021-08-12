@@ -33,3 +33,20 @@ print(cuatro, seis, ocho)
 print('2. Modificación de elementos de una lista')
 numeros[0] = 1
 print('El primer elemento (índice 0) de la lista es:', numeros[0])
+
+print()
+
+# Acceso a un índice que no existe:
+
+# valor = numeros[8]     ValueError 
+# valor = numeros[-6]    ValueError 
+
+# Izquierda a Derecha: 0 hasta n-1 (n es el número total de la lista (# de elementos))
+# Derecja a izquierda: -1 hasta -n (si la lista tiene 5 elementos el primer elemento seria -5)
+
+# 3. Modificación de una lista (vía índices negativos)
+
+print('El último elemento (índice -1) de la lista es:', numeros[-1])
+numeros[-1] = 12
+print('El último elemento (índice -1) de la lista es:', numeros[-1])
+
