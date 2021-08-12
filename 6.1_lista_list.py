@@ -59,6 +59,15 @@ print('Iteración de lista con ciclo while:')
 
 i = 0
 while i < len(numeros):
-    print(f'Índice: {i} - Valor: {numeros[i]}', numeros[i])
+    print(f'Índice: {i} - Valor: {numeros[i]}')
     i += 1
 print(i)
+
+# Iteracion con indices negativos:
+
+i = len(numeros) - 1 # recordar que la longitud en indices negativos es n-1
+while i >= 0:
+    print(f'Índice: {i} - Valor: {numeros[i]}')
+    i -= 1
+print(i)
+
