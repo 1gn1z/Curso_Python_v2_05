@@ -96,3 +96,11 @@ print('Iteración por elemento de una lista usando un ciclo for:')
 
 for i in numeros:   # Conocido en otros lenguajes como FOR EACH
     print(f'Valor: {i}')
+
+print()
+
+# Iteración de lista con la función enumerate()
+print('Iteración de lista con la función enumerate():')
+
+for i, v in enumerate(numeros):
+    print(f'Índice: {i} - Valor: {v}')
