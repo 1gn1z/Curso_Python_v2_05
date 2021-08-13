@@ -132,8 +132,14 @@ print('Contenido actual de la lista "numeros":', numeros)
 numeros.insert(-1, 15)
 print('Contenido actual de la lista "numeros":', numeros)
 
+print()
 
+# Remoción de un elemento con la función remove()
+print('Remoción de un elemento con la función remove()')
 
+# Vamos a eliminar el elemento 1
+numeros.remove(1)    # Se pone el elemento a eliminar (1a coincidencia)
+print('Contenido actual de la lista "numeros":', numeros)
 
 
 
