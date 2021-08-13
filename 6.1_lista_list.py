@@ -104,3 +104,14 @@ print('Iteración de lista con la función enumerate():')
 
 for i, v in enumerate(numeros):
     print(f'Índice: {i} - Valor: {v}')
+
+# Operaciones sobre listas (clase 'list'):
+
+# Inserción de elementos en una lista por medio de 'append()':
+# Añade el elemento al final de la lista.
+print('Inserción de elementos en una lista por medio de append():')
+
+numeros.append(14)
+numeros.append(16)
+print('Cantidad actual de elementos en la lista numeros: ',len(numeros))
+print('Contenido actual de la lista "numeros":', numeros)
