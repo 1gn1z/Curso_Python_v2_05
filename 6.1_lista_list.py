@@ -90,3 +90,9 @@ for i in range(len(numeros) -1, -1, -1):
 #for i in numeros:
 #    print(i)
 
+print()
+
+print('Iteración por elemento de una lista usando un ciclo for:')
+
+for i in numeros:   # Conocido en otros lenguajes como FOR EACH
+    print(f'Valor: {i}')
