@@ -141,11 +141,15 @@ print('Remoción de un elemento con la función remove()')
 numeros.remove(1)    # Se pone el elemento a eliminar (1a coincidencia)
 print('Contenido actual de la lista "numeros":', numeros)
 
+print()
 
+# Remoción de elementos de una lista con el método pop()
+print('Remoción de elementos de una lista con el método pop()')
 
+ultimo_elemento = numeros.pop()
+print(f'Se ha eliminado {ultimo_elemento} de la lista "numeros".')
 
-
-
-
+print()
+# Vamos a eliminar el número 8 (indice 3) de la lista.
 
 
