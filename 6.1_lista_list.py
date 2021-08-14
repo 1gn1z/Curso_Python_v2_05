@@ -160,3 +160,5 @@ print()
 ultimo_elemento = numeros.pop(-1)
 print(f'Se ha eliminado {ultimo_elemento} de la lista "numeros".')
 print('Contenido actual de la lista "numeros":', numeros)
+
+#numeros.pop(20)    # Provoca IndexError
