@@ -162,3 +162,11 @@ print(f'Se ha eliminado {ultimo_elemento} de la lista "numeros".')
 print('Contenido actual de la lista "numeros":', numeros)
 
 #numeros.pop(20)    # Provoca IndexError
+
+print()
+
+print('Uso del método count() para contar las ocurrencias de un elemento en una lista')
+
+ocurrencias = numeros.count(14)
+print('Cantidad de veces que se halla 14 en la lista "numeros": %i' %ocurrencias)
+print(f'Cantidad de veces que se halla 14 en la lista "numeros": {ocurrencias}')
