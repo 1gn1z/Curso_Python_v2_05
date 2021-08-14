@@ -155,3 +155,8 @@ print()
 ocho = numeros.pop(numeros.index(8))
 print(f'Se ha eliminado {ocho} de la lista "numeros".')
 print('Contenido actual de la lista "numeros":', numeros)
+
+print()
+ultimo_elemento = numeros.pop(-1)
+print(f'Se ha eliminado {ultimo_elemento} de la lista "numeros".')
+print('Contenido actual de la lista "numeros":', numeros)
